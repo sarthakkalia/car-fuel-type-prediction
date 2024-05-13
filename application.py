@@ -24,12 +24,11 @@ def index():
 def predict_datapoint():
     if request.method=='POST':
         name_encoded=int(request.form.get('name_encoded'))
-        company_encoded = int(request.form.get('company_encoded'))
         year = int(request.form.get('year'))
         Price = float(request.form.get('Price'))
         kms_driven = float(request.form.get('kms_driven'))
 
-        new_data_scaled=standard_scaler.transform([[name_encoded,company_encoded,year,Price,kms_driven]])
+        new_data_scaled=standard_scaler.transform([[name_encoded,year,Price,kms_driven]])
         result=model.predict(new_data_scaled)
 
         predicted_fuel_type = fuel_type_mapping[result[0]]
