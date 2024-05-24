@@ -1,12 +1,15 @@
 # Car Fuel-Type Prediction <h1>
+
+![](https://github.com/sarthakkalia/car-fuel-predictions-deployment-ML-regression/blob/main/Screenshot%202024-05-24%20155216.png)
+
 This logistic regression model predicts the fuel type (e.g., petrol, diesel, LPG) of a car based on certain characteristics such as company, year of production, price, and kilometers driven. This README provides an overview of the model, its usage, and any prerequisites for running it.
 ## Requirements:
-To set up the necessary Python environment, you can install the required packages using pip with the following command.<h1>
+To set up the necessary Python environment, you can install the required packages using pip with the following command.  
 ```
-pip install -r requirements.txt
+python application.py
 ```
 ## Usage:
-Clone the Repository: <h1>
+Clone the Repository:  
 ```
 https://github.com/sarthakkalia/car-fuel-predictions-deployment-ML-regression.git
 ```
