@@ -1,6 +1,6 @@
 # Car Fuel-Type Prediction <h1>
 
-![](https://github.com/sarthakkalia/car-fuel-predictions-deployment-ML-regression/blob/main/Screenshot%202024-05-24%20155216.png)
+![](https://github.com/sarthakkalia/car-fuel-predictions-deployment-ML-regression/blob/main/templates/Screenshot%202024-08-11%20135509.png)
 
 This logistic regression model predicts the fuel type (e.g., petrol, diesel, LPG) of a car based on certain characteristics such as company, year of production, price, and kilometers driven. This README provides an overview of the model, its usage, and any prerequisites for running it.
 ## Requirements:
